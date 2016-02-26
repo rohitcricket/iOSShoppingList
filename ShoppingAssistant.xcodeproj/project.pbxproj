@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B527EE31C7EB078000102E7 /* puma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B527EE21C7EB078000102E7 /* puma.jpg */; };
+		9B6BE3241C7E704700A81DE4 /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6BE3221C7E704700A81DE4 /* Product+CoreDataProperties.swift */; };
+		9B6BE3251C7E704700A81DE4 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6BE3231C7E704700A81DE4 /* Product.swift */; };
 		9BB3AFFF1C7D417100CAEF25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3AFFE1C7D417100CAEF25 /* AppDelegate.swift */; };
 		9BB3B0011C7D417100CAEF25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3B0001C7D417100CAEF25 /* ViewController.swift */; };
 		9BB3B0041C7D417100CAEF25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB3B0021C7D417100CAEF25 /* Main.storyboard */; };
 		9BB3B0071C7D417100CAEF25 /* ShoppingAssistant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3B0051C7D417100CAEF25 /* ShoppingAssistant.xcdatamodeld */; };
 		9BB3B0091C7D417100CAEF25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB3B0081C7D417100CAEF25 /* Assets.xcassets */; };
 		9BB3B00C1C7D417100CAEF25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB3B00A1C7D417100CAEF25 /* LaunchScreen.storyboard */; };
+		9BD173A81C7F4FA400F6FED0 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD173A71C7F4FA400F6FED0 /* ProductDetailViewController.swift */; };
+		9BD173AA1C7FE85300F6FED0 /* NewProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD173A91C7FE85300F6FED0 /* NewProductViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B527EE21C7EB078000102E7 /* puma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = puma.jpg; sourceTree = "<group>"; };
+		9B6BE3221C7E704700A81DE4 /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9B6BE3231C7E704700A81DE4 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		9BB3AFFB1C7D417100CAEF25 /* ShoppingAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB3AFFE1C7D417100CAEF25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BB3B0001C7D417100CAEF25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +32,8 @@
 		9BB3B0081C7D417100CAEF25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BB3B00B1C7D417100CAEF25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BB3B00D1C7D417100CAEF25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD173A71C7F4FA400F6FED0 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		9BD173A91C7FE85300F6FED0 /* NewProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewProductViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,8 @@
 		9BB3AFF21C7D417100CAEF25 = {
 			isa = PBXGroup;
 			children = (
+				9B6BE3221C7E704700A81DE4 /* Product+CoreDataProperties.swift */,
+				9B6BE3231C7E704700A81DE4 /* Product.swift */,
 				9BB3AFFD1C7D417100CAEF25 /* ShoppingAssistant */,
 				9BB3AFFC1C7D417100CAEF25 /* Products */,
 			);
@@ -56,13 +68,16 @@
 		9BB3AFFD1C7D417100CAEF25 /* ShoppingAssistant */ = {
 			isa = PBXGroup;
 			children = (
+				9B527EE21C7EB078000102E7 /* puma.jpg */,
 				9BB3AFFE1C7D417100CAEF25 /* AppDelegate.swift */,
 				9BB3B0001C7D417100CAEF25 /* ViewController.swift */,
 				9BB3B0021C7D417100CAEF25 /* Main.storyboard */,
+				9BD173A71C7F4FA400F6FED0 /* ProductDetailViewController.swift */,
 				9BB3B0081C7D417100CAEF25 /* Assets.xcassets */,
 				9BB3B00A1C7D417100CAEF25 /* LaunchScreen.storyboard */,
 				9BB3B00D1C7D417100CAEF25 /* Info.plist */,
 				9BB3B0051C7D417100CAEF25 /* ShoppingAssistant.xcdatamodeld */,
+				9BD173A91C7FE85300F6FED0 /* NewProductViewController.swift */,
 			);
 			path = ShoppingAssistant;
 			sourceTree = "<group>";
@@ -127,6 +142,7 @@
 			files = (
 				9BB3B00C1C7D417100CAEF25 /* LaunchScreen.storyboard in Resources */,
 				9BB3B0091C7D417100CAEF25 /* Assets.xcassets in Resources */,
+				9B527EE31C7EB078000102E7 /* puma.jpg in Resources */,
 				9BB3B0041C7D417100CAEF25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +156,11 @@
 			files = (
 				9BB3B0071C7D417100CAEF25 /* ShoppingAssistant.xcdatamodeld in Sources */,
 				9BB3B0011C7D417100CAEF25 /* ViewController.swift in Sources */,
+				9B6BE3251C7E704700A81DE4 /* Product.swift in Sources */,
+				9B6BE3241C7E704700A81DE4 /* Product+CoreDataProperties.swift in Sources */,
+				9BD173AA1C7FE85300F6FED0 /* NewProductViewController.swift in Sources */,
 				9BB3AFFF1C7D417100CAEF25 /* AppDelegate.swift in Sources */,
+				9BD173A81C7F4FA400F6FED0 /* ProductDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +310,7 @@
 				9BB3B0121C7D417100CAEF25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
