@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -80,6 +81,7 @@
                         <viewControllerLayoutGuide type="bottom" id="FoA-3V-fWV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nd7-Ei-nSS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wR-B1-YcC">
@@ -237,21 +239,21 @@
                                 <exclude reference="SRe-MO-U2d"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="ZcJ-Ai-Mok"/>
-                                <exclude reference="aHq-dx-XGw"/>
-                                <exclude reference="aVf-XX-SAR"/>
-                                <exclude reference="Al9-Jl-KIY"/>
-                                <exclude reference="Eeo-oI-qKg"/>
-                                <exclude reference="gBS-mK-xdl"/>
-                                <exclude reference="ZQ7-pd-gJH"/>
-                                <exclude reference="fS1-MK-mqI"/>
-                                <exclude reference="fpA-Ma-TY8"/>
-                                <exclude reference="iOe-MV-HdT"/>
-                                <exclude reference="sA3-FV-1bt"/>
-                                <exclude reference="zBL-mU-Nyd"/>
                                 <exclude reference="U9H-pg-lSi"/>
                                 <exclude reference="and-8x-l7T"/>
                                 <exclude reference="iKG-1l-N2w"/>
+                                <exclude reference="ZQ7-pd-gJH"/>
+                                <exclude reference="fS1-MK-mqI"/>
+                                <exclude reference="fpA-Ma-TY8"/>
+                                <exclude reference="Al9-Jl-KIY"/>
+                                <exclude reference="Eeo-oI-qKg"/>
+                                <exclude reference="gBS-mK-xdl"/>
+                                <exclude reference="iOe-MV-HdT"/>
+                                <exclude reference="sA3-FV-1bt"/>
+                                <exclude reference="zBL-mU-Nyd"/>
+                                <exclude reference="ZcJ-Ai-Mok"/>
+                                <exclude reference="aHq-dx-XGw"/>
+                                <exclude reference="aVf-XX-SAR"/>
                                 <exclude reference="FGd-db-psc"/>
                                 <exclude reference="hgc-2K-AMd"/>
                             </mask>
@@ -266,21 +268,21 @@
                                 <include reference="SRe-MO-U2d"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="ZcJ-Ai-Mok"/>
-                                <include reference="aHq-dx-XGw"/>
-                                <include reference="aVf-XX-SAR"/>
-                                <include reference="Al9-Jl-KIY"/>
-                                <include reference="Eeo-oI-qKg"/>
-                                <include reference="gBS-mK-xdl"/>
-                                <include reference="ZQ7-pd-gJH"/>
-                                <include reference="fS1-MK-mqI"/>
-                                <include reference="fpA-Ma-TY8"/>
-                                <include reference="iOe-MV-HdT"/>
-                                <include reference="sA3-FV-1bt"/>
-                                <include reference="zBL-mU-Nyd"/>
                                 <include reference="U9H-pg-lSi"/>
                                 <include reference="and-8x-l7T"/>
                                 <include reference="iKG-1l-N2w"/>
+                                <include reference="ZQ7-pd-gJH"/>
+                                <include reference="fS1-MK-mqI"/>
+                                <include reference="fpA-Ma-TY8"/>
+                                <include reference="Al9-Jl-KIY"/>
+                                <include reference="Eeo-oI-qKg"/>
+                                <include reference="gBS-mK-xdl"/>
+                                <include reference="iOe-MV-HdT"/>
+                                <include reference="sA3-FV-1bt"/>
+                                <include reference="zBL-mU-Nyd"/>
+                                <include reference="ZcJ-Ai-Mok"/>
+                                <include reference="aHq-dx-XGw"/>
+                                <include reference="aVf-XX-SAR"/>
                                 <include reference="FGd-db-psc"/>
                                 <include reference="hgc-2K-AMd"/>
                             </mask>
@@ -305,6 +307,7 @@
                         <viewControllerLayoutGuide type="bottom" id="uBv-E2-GYC"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="cIC-8d-NSr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJX-CX-Alf">
@@ -355,10 +358,10 @@
                                 <exclude reference="d2j-2B-UKm"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="bAC-aD-Qf2"/>
-                                <exclude reference="c4x-mU-22b"/>
                                 <exclude reference="LAM-WC-UUx"/>
                                 <exclude reference="cCD-wg-hAf"/>
+                                <exclude reference="bAC-aD-Qf2"/>
+                                <exclude reference="c4x-mU-22b"/>
                                 <exclude reference="T71-JQ-Ta8"/>
                                 <exclude reference="Zo6-W3-yT8"/>
                             </mask>
@@ -370,10 +373,10 @@
                                 <include reference="d2j-2B-UKm"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="bAC-aD-Qf2"/>
-                                <include reference="c4x-mU-22b"/>
                                 <include reference="LAM-WC-UUx"/>
                                 <include reference="cCD-wg-hAf"/>
+                                <include reference="bAC-aD-Qf2"/>
+                                <include reference="c4x-mU-22b"/>
                                 <include reference="T71-JQ-Ta8"/>
                                 <include reference="Zo6-W3-yT8"/>
                             </mask>
